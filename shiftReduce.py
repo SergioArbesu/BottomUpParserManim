@@ -56,7 +56,7 @@ class ShiftReduce(Scene):
         command_old = command
 
         # Reduce T -> int
-        command = Text("Reduce T -> int", font_size=32)
+        command = Text("Reduce T → int", font_size=32)
         command.to_edge(DL)
         self.play(AnimationGroup(
             Write(command),
@@ -69,7 +69,7 @@ class ShiftReduce(Scene):
         command_old = command
 
         # Reduce T -> int * T
-        command = Text("Reduce T -> int * T", font_size=32)
+        command = Text("Reduce T → int * T", font_size=32)
         command.to_edge(DL)
         self.play(AnimationGroup(
             Write(command),
@@ -105,7 +105,7 @@ class ShiftReduce(Scene):
         command_old = command
 
         # Reduce T -> int
-        command = Text("Reduce T -> int", font_size=32)
+        command = Text("Reduce T → int", font_size=32)
         command.to_edge(DL)
         self.play(AnimationGroup(
             Write(command),
@@ -118,7 +118,7 @@ class ShiftReduce(Scene):
         command_old = command
 
         # Reduce E -> T
-        command = Text("Reduce E -> T", font_size=32)
+        command = Text("Reduce E → T", font_size=32)
         command.to_edge(DL)
         self.play(AnimationGroup(
             Write(command),
@@ -131,7 +131,7 @@ class ShiftReduce(Scene):
         command_old = command
 
         # Reduce E -> T + E
-        command = Text("Reduce E -> T + E", font_size=32)
+        command = Text("Reduce E → T + E", font_size=32)
         command.to_edge(DL)
         self.play(AnimationGroup(
             Write(command),
