@@ -1,0 +1,8 @@
+line of code
+
+instruction 1 (Shift or Reduce)
+instruction 2
+instruction 3
+
+bnf
+bnf

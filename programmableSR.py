@@ -5,6 +5,7 @@ import pathlib
 def get_instructions():
     """
     format of the instructions file:
+    one line of code
     one instruction per line
     one blank line
     the bnf
