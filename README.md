@@ -1,6 +1,6 @@
 # Shift-Reduce Animation
 
-## How to run
+## Creating the animations
 
 Once your python virtual environment is created, run the following command to install all the required dependencies
 ```bash
