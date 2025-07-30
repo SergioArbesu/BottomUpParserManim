@@ -20,19 +20,19 @@ In it, write the text you will parse in the first line.
 Separated by an empty line, write the set of instructions that will be performed during the parse.
 
 Write
-```bash
+```text
 Shift
 ```
 for shifts.
 
 Write
-```bash
+```text
 Reduce T ::= int * T
 ```
 for reductions.
 
 Separated by another empty line, write your bnf rules.
-```bash
+```text
 E ::= T + E | T
 T ::= int * T | int | (E)
 ```
