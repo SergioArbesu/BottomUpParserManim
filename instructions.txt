@@ -1,8 +1,15 @@
-line of code
+int * int + int
 
-instruction 1 (Shift or Reduce)
-instruction 2
-instruction 3
+Shift
+Shift
+Shift
+Reduce T ::= int
+Reduce T ::= int * T
+Shift
+Shift
+Reduce T ::= int
+Reduce E ::= T
+Reduce E ::= T + E
 
-bnf
-bnf
+E ::= T + E | T
+T ::= int * T | int | (E)
